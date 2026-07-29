@@ -24,7 +24,7 @@ a{text-decoration:none;color:inherit;}
 
 /* ================= LAYOUT ================= */
 .container{
-  max-width:1100px;
+  max-width:1200px;
   margin:0 auto;
   padding:0 1.25rem;
 }
@@ -48,28 +48,38 @@ a{text-decoration:none;color:inherit;}
   display:flex;
   justify-content:space-between;
   align-items:center;
-  height:64px;
+  height:90px;
+    padding:0 0.5rem;
+    .logo{
+  margin-left:-20px;
+}
+}
+.logo{
+  display: flex;
+  align-items: center;
 }
 
-.logo{
-  font-weight:700;
-  font-size:1.2rem;
-  color:#1e3a5f;
+.logo img{
+  height: 80px;
+  width: auto;
+  display: block;
+   margin-top:6px;
 }
 
 .nav-links{
   display:flex;
-  gap:1.5rem;
+  gap:2rem;
   list-style:none;
 }
-
-.nav-links a{
-  color:#475569;
-  font-size:.9rem;
+}.nav-links a{
+  color:#1e3a5f;
+  font-size:1rem;
+  font-weight:600;
+  letter-spacing:0.2px;
 }
 
 .nav-links a:hover{
-  color:#1e3a5f;
+  color:#4a90e2;
 }
 
 /* ================= HERO ================= */
@@ -181,10 +191,29 @@ a{text-decoration:none;color:inherit;}
 /* === About Section Improvements === */
 
 .about-container{
-  max-width:900px;
-  margin:0 auto;
+  display: flex;
+  align-items: flex-start ;
+  justify-content: space-between;
+  gap: 3rem;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
+.about-text{
+  flex: 2;
+}
+
+.about-image{
+  flex: 0.8;
+}
+
+.about-image img{
+  width: 100%;
+  max-width:320px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
 #about{
   padding-top:7rem;
 }
@@ -193,17 +222,11 @@ a{text-decoration:none;color:inherit;}
   margin-bottom:1.25rem;
   color:var(--gray-600);
   line-height:1.8;
+  font-size:1.05rem;
 }
-/* ================= ABOUT FLOAT IMAGE ================= */
 
-.about-float-img{
-  float:right;
-  width:340px;
-  max-width:45%;
-  margin:0 0 1.5rem 2rem;
-  border-radius:12px;
-  box-shadow:0 10px 25px rgba(0,0,0,0.12);
-}
+
+
 /* ================= HOW IT WORKS ================= */
 
 .process-timeline{
@@ -247,35 +270,34 @@ a{text-decoration:none;color:inherit;}
   line-height:1.7;
   max-width:680px;
 }
-/* ================= WHY PICOBUILDER ================= */
+/* ================= WHY CHOOSE US ================= */
 
 .feature-container{
   max-width:1100px;
 }
 
-
-.why-pico-grid{
+.why-grid{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
   gap:1.5rem;
   margin-top:3rem;
 }
 
-.why-pico-card{
+.why-card{
   background:#fff;
-  padding:2rem;
-  border-radius:12px;
-  box-shadow:0 6px 20px rgba(0,0,0,0.06);
+  padding:2.25rem;
+  border-radius:14px;
+  box-shadow:0 8px 24px rgba(0,0,0,0.08);
   border:1px solid rgba(0,0,0,0.04);
 }
 
-.why-pico-card h3{
+.why-card h3{
   color:#1e3a5f;
   margin-bottom:0.75rem;
-  font-size:1.1rem;
+  font-size:1.2rem;
 }
 
-.why-pico-card p{
+.why-card p{
   color:#475569;
   line-height:1.7;
 }
@@ -291,6 +313,23 @@ a{text-decoration:none;color:inherit;}
   padding:1.5rem;
   border-radius:8px;
   box-shadow:0 1px 3px rgba(0,0,0,.08);
+}
+/* ================= MANUFACTURING PROCESS ================= */
+
+#services{
+  background:#23384d;
+}
+
+#services .section-title{
+  color:#ffffff;
+}
+
+#services .section-subtitle{
+  color:#d6dde5;
+}
+
+#services .service-card{
+  background:#ffffff;
 }
 
 /* ================= UTILS ================= */
@@ -363,17 +402,33 @@ a{text-decoration:none;color:inherit;}
 
 .gallery-grid{
   display:grid;
-  grid-template-columns:repeat(2,1fr);
+  grid-template-columns:repeat(4,1fr);
   gap:1.5rem;
   margin-top:2rem;
 }
 
 .gallery-grid img{
   width:100%;
-  height:280px;
-  object-fit:cover;
+  height:320px;
+  object-fit:contain;
+  background:transparent;
   border-radius:12px;
-  box-shadow:0 6px 20px rgba(0,0,0,0.08);
+  box-shadow:0 8px 24px rgba(0,0,0,0.25);
+  padding:10px;
+}
+
+/* ================= GALLERY SECTION ================= */
+
+#gallery{
+  background:#23384d;
+}
+
+#gallery .section-title{
+  color:#ffffff;
+}
+
+#gallery .section-subtitle{
+  color:#d6dde5;
 }
 /* ================= FOOTER ================= */
 .footer{
