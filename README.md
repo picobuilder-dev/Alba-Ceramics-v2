@@ -1,33 +1,38 @@
-# Alba Ceramics Demo Website
+# Alba Ceramics
 
-A professional ceramics and tile supplier website demonstration developed using the PicoBuilder website system.
+A professional ceramic manufacturing website developed using the PicoBuilder website system.
 
-Designed for:
+## Designed For
 
-- Ceramic tile suppliers
-- Bathroom showrooms
-- Flooring specialists
-- Home improvement retailers
-- Building material suppliers
-- Interior finishing companies
+- Ceramic manufacturers
+- Decorative pottery manufacturers
+- Vase manufacturers
+- Wholesale ceramic suppliers
+- Retail ceramic distributors
+- Custom ceramic product manufacturers
 
 ## Features
 
-- Fully responsive design
-- Modern HTML5, CSS3 and JavaScript
-- Product showcase
-- Services section
-- Gallery
-- Contact call-to-action
-- Fast-loading static website
-- Easy to customise for individual businesses
+- Responsive mobile-first design
+- Lightweight static HTML and CSS
+- Product gallery
+- Manufacturing process overview
+- WhatsApp integration
+- Contact enquiry form
+- Fast loading and SEO-friendly
 
-## Built with
+## Built With
 
 - HTML5
 - CSS3
-- JavaScript
+- Vanilla JavaScript
+- GitHub
+- Netlify
 
-Created using the PicoBuilder website system.
+---
+
+Website demonstration for Alba Ceramics, South Africa.
+
+Developed using the PicoBuilder website system.
 
 Website: https://picobuilder.co.za

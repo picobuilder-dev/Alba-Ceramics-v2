@@ -71,7 +71,7 @@ a{text-decoration:none;color:inherit;}
   gap:2rem;
   list-style:none;
 }
-}.nav-links a{
+.nav-links a{
   color:#1e3a5f;
   font-size:1rem;
   font-weight:600;
@@ -429,6 +429,15 @@ a{text-decoration:none;color:inherit;}
 
 #gallery .section-subtitle{
   color:#d6dde5;
+}
+
+/* Gallery category headings */
+
+.gallery-category{
+  font-size:1.5rem;
+  font-weight:700;
+  color:#ffffff;
+  margin:1.5rem 0 1rem;
 }
 /* ================= FOOTER ================= */
 .footer{
