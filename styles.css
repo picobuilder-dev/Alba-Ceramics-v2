@@ -55,16 +55,15 @@ a{text-decoration:none;color:inherit;}
 }
 }
 .logo{
-  display: flex;
-  align-items: center;
+  display:flex;
+  align-items:center;
+  font-size:2.2rem;
+  font-weight:800;
+  letter-spacing:1px;
+  color:var(--nav-text);
+  text-decoration:none;
 }
 
-.logo img{
-  height: 100px;
-  width: auto;
-  display: block;
-   margin-top:6px;
-}
 
 .nav-links{
   display:flex;
