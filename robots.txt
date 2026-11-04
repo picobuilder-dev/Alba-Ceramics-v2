@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://albaceramics-pottery.com/sitemap.xml
